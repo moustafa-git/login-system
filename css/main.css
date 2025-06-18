@@ -1,0 +1,108 @@
+:root {
+  --main-font: Titillium;
+  --main-color: #22323c;
+  --title-color: #17a2b8;
+}
+
+body {
+  background-color: var(--main-color);
+}
+
+#login {
+  margin: 48px 0;
+}
+
+.login-form {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  h1 {
+    color: var(--title-color);
+    font-family: var();
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  input::placeholder {
+    color: rgb(193, 193, 193);
+  }
+
+  input:focus {
+    border-color: #80bdff;
+    outline: none;
+  }
+
+  input {
+    border: solid 1px #c1c1c1;
+    color: white;
+  }
+
+  button {
+    padding: 6px 12px;
+    border: solid 1px var(--title-color);
+    color: var(--title-color);
+    background-color: transparent;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: var(--title-color);
+      color: white;
+    }
+  }
+
+  p {
+    color: white;
+    font-size: 16px;
+    font-family: var(--main-font);
+    font-weight: 400;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* NAVBAR */
+.navbar-toggler {
+  border-color: rgba(193, 193, 193, 0.3);
+}
+
+.icon {
+  color: rgba(193, 193, 193, 0.3);
+}
+
+.nav-button {
+  width: 100%;
+}
+
+.navbar {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+#welcome {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.welcome-card {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  h1 {
+    font-family: var(--main-font);
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--title-color);
+  }
+}
+
+/* lg devices */
+@media screen and (min-width: 992px) {
+  .nav-button {
+    width: auto;
+  }
+}

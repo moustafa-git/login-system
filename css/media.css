@@ -1,0 +1,45 @@
+/* sm devices */
+@media screen and (min-width: 576px) {
+}
+
+/* md devices */
+@media screen and (min-width: 768px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: #1c1c1c;
+  }
+
+  .navbar {
+    background-color: white;
+    color: #1c1c1c;
+  }
+
+  .navbar-brand {
+    color: #1c1c1c;
+  }
+
+  .header-content {
+    h1 {
+      font-family: var(--main-font);
+      font-size: 44px;
+      font-weight: 200;
+    }
+  }
+}
+
+/* lg devices */
+@media screen and (min-width: 992px) {
+  .figure::after {
+    top: 28%;
+  }
+  .figure img {
+    left: 8%;
+  }
+}
+
+/* xl devices */
+@media screen and (min-width: 1200px) {
+}
+
+/* 2xl devices */
+@media screen and (min-width: 1400px) {
+}

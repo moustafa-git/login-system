@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <script defer src="./js/bootstrap.bundle.min.js"></script>
+    <script defer src="./js/login.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section onsubmit="" id="login">
+        <div class="container">
+          <form class="login-form w-75 m-auto text-center p-5">
+            <h1>Smart Login System</h1>
+            <input
+              id="email-login"
+              class="w-100 bg-transparent ps-2 py-2 rounded my-3"
+              type="text"
+              placeholder="Enter your email"
+            />
+            <input
+              id="password-login"
+              class="w-100 bg-transparent ps-2 py-2 rounded mb-4"
+              type="text"
+              placeholder="Enter your password"
+            />
+            <p id="invalid-login" class="text-danger mb-4 d-none">
+              Incorrect email or password
+            </p>
+            <p id="fail" class="text-danger mb-4 d-none">All inputs required</p>
+            <button class="w-100 rounded mb-3" type="submit">Login</button>
+            <p>Don’t have an account? <a href="./signup.html">Sign Up</a></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
