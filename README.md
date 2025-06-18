@@ -12,4 +12,4 @@
 **A simple login system done with vanilla javascript to prtactice DOM Manipulation**
 ## Live Demo
 
-Try the system: [Bookmarker-netlify](https://683f8e985737f430a864184b--melodious-sunflower-827495.netlify.app/)
+Try the system: [login-netlify](https://6852759a5bf6d8298eae0da0--neon-gelato-12b9a9.netlify.app/)
